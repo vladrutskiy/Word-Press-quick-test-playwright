@@ -32,12 +32,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
-    // baseURL: 'https://abbeydale.org',
-    // baseURL: 'https://theinterviewpal.com',
-    // baseURL: 'https://rutskyi.yotako.com',
-    //baseURL: 'https://tflite.com/',
-    //baseURL: 'https://bikecalgary.org/',
+        
     baseURL: 'https://seehearact.org/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
